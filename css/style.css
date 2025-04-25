@@ -1,132 +1,132 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    background-color: #f8f0e0;
-  }
-  
-  .fullcontainer {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-  }
-  
-  .bgfundo {
-    background: url(/Img/Fundo.jpg) no-repeat center/cover;
-  
-    /*background-color: blue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  background-color: #f8f0e0;
+}
+
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bgfundo {
+  background: url(/Img/Fundo.jpg) no-repeat center/cover;
+
+  /*background-color: blue;
        background-image: url(https://placehold.co/1920x1080);
        background-repeat: no-repeat;
        background-position: center center;
        background-size: cover;*/
-  
-    width: 100%;
-    height: 700px;
-  }
-  
-  header {
-    color: #f8f0e0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-  
-    background: linear-gradient(
-      to bottom,
-      rgba(42, 22, 2, 0.8) 0% ,
-      rgba(86, 49, 13, 0.8) 60%,
-      rgba(28, 92, 23, 0) 100%
-    );
-    background: -webkit-linear-gradient(
-      to bottom,
-      rgba(42, 22, 2, 0.8) 0% ,
-      rgba(86, 49, 13, 0.8) 60%,
-      rgba(28, 92, 23, 0) 100%
-    );
-    background: -moz-linear-gradient(
-      to bottom,
-      rgba(42, 22, 2, 0.8) 0% ,
-      rgba(86, 49, 13, 0.8) 60%,
-      rgba(28, 92, 23, 0) 100%
-    );
-    padding: 24px 0;
-  }
-  
-  .container {
-    max-width: 1073px;
-    margin: 0 auto;
-  }
-  
-  .main-navigation {
-    display: flex;
-    align-items: center;
-  }
-  
-  .main-navigation ul {
-    list-style: none;
-    display: flex;
-    gap: 28px;
-    align-items: center;
-    margin: 0;
-  }
-  
-  .main-navigation a {
-    color: #f8f0e0;
-    display: block;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 17px;
-    font-family: Helvetica, sans-serif;
-    border-bottom: solid 3px transparent;
-  }
-  
-  .main-navigation a:hover,
-  .main-navigation a:focus {
-    border-color: rgb(146, 37, 37);
-  }
-  
-  .site-header-main {
-    display: flex;
-    justify-content: space-between;
-    height: 125px;
-  }
-  
-  .sec-menu {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .sec-menu ion-icon {
-    font-size: 25px;
-  }
-  
-  #btnzap {
-    background: rgb(94, 5, 5);
-    border-radius: 65px;
-    padding: 3px 15px;
-    font-size: 20px;
-    font-weight: bolder;
-    height: 40px;
-  
-    display: flex;
-    align-items: center;
-    gap: 7px;
-  }
 
-.ifood{
+  width: 100%;
+  height: 700px;
+}
+
+header {
+  color: #f8f0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(42, 22, 2, 0.8) 0%,
+    rgba(86, 49, 13, 0.8) 60%,
+    rgba(28, 92, 23, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(42, 22, 2, 0.8) 0%,
+    rgba(86, 49, 13, 0.8) 60%,
+    rgba(28, 92, 23, 0) 100%
+  );
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(42, 22, 2, 0.8) 0%,
+    rgba(86, 49, 13, 0.8) 60%,
+    rgba(28, 92, 23, 0) 100%
+  );
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1073px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 0;
+}
+
+.main-navigation a {
+  color: #f8f0e0;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: Helvetica, sans-serif;
+  border-bottom: solid 3px transparent;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  border-color: rgb(146, 37, 37);
+}
+
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+}
+
+.sec-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sec-menu ion-icon {
+  font-size: 25px;
+}
+
+#btnzap {
+  background: rgb(94, 5, 5);
+  border-radius: 65px;
+  padding: 3px 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.ifood {
   position: fixed;
   right: 0;
   top: 200px;
 }
 
-#BoasVindas{
+#BoasVindas {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -136,16 +136,16 @@ body {
   }
 }
 
-#TextoBoasVindas{
+#TextoBoasVindas {
   max-width: 600px;
 }
 
-#Cardapio{
+#Cardapio {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  & h2{
+  & h2 {
     color: rgb(66, 36, 6);
     text-transform: uppercase;
     font-size: 28px;
@@ -154,7 +154,7 @@ body {
   }
 }
 
-#PromoPizzas{
+#PromoPizzas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -163,10 +163,10 @@ body {
   gap: 15px;
 }
 
-.divider{
+.divider {
   padding: 40px 0;
 }
-#btnCardapio{
+#btnCardapio {
   text-decoration: none;
   background: rgb(146, 37, 37);
   color: rgb(214, 103, 103);
@@ -177,11 +177,11 @@ body {
   transition: all 0.3s;
 }
 
-#btnCardapio:hover{
+#btnCardapio:hover {
   background: rgb(146, 37, 37);
 }
 
-#Delivery{
+#Delivery {
   background: rgb(163, 120, 78);
   margin: 50px 0;
   display: flex;
@@ -190,26 +190,26 @@ body {
   gap: 100px;
   text-align: center;
 
-  & h2{
+  & h2 {
     text-transform: uppercase;
     color: rgb(94, 5, 5);
     font-weight: 900;
     font-size: 28px;
   }
 
-  & .sec-menu{
+  & .sec-menu {
     justify-content: center;
     color: #f8f0e0;
   }
 }
 
-#Icone{
+#Icone {
   display: flex;
   justify-content: center;
   gap: 70px;
   margin: 20px 0;
 
-  & .itens{
+  & .itens {
     max-width: 250px;
     text-align: center;
   }
@@ -226,7 +226,7 @@ body {
   }
 }
 
-h3{
+h3 {
   color: rgb(146, 37, 37);
 }
 
@@ -276,22 +276,21 @@ h3{
     flex-direction: column;
     align-items: center;
 
-    & textarea{
+    & textarea {
       resize: none;
     }
   }
-  }
+}
 
-  input[type="submit"] {
-    background: rgb(89, 49, 8);
-    border-color: C;
-    width: 155px;
-    border-radius: 50px;
-    color: #f1dfbb;
-    font-weight: 700;
-    margin-top: 20px;
-  }
-
+input[type="submit"] {
+  background: rgb(89, 49, 8);
+  border-color: C;
+  width: 155px;
+  border-radius: 50px;
+  color: #f1dfbb;
+  font-weight: 700;
+  margin-top: 20px;
+}
 
 footer {
   background-color: rgb(89, 49, 8);
@@ -301,12 +300,10 @@ footer {
   padding-top: 50px;
 }
 
-
 #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
-
 
   & div:first-child {
     margin-left: 10%;
@@ -316,21 +313,16 @@ footer {
     margin: 0;
   }
 
-
   & h4 {
     margin-top: 10px;
   }
 }
-
 
 #copyright {
   margin-top: 50px;
   padding-bottom: 15px;
 }
 
-
 .esquerda {
   text-align: start;
 }
-
-
